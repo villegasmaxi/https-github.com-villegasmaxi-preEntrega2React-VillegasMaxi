@@ -11,9 +11,7 @@ function NavBar() {
     <>
       <div className="container">
         <div className="contentBar mt-3">
-          <NavLink to="/" className="brand">
-            <Brand />
-          </NavLink>
+         
           <div>
             <ButtonGroup aria-label="Basic example">
               <Button variant="secondary" as={NavLink} to='/category/comida' >Comida</Button>
@@ -22,6 +20,10 @@ function NavBar() {
               <Button variant="secondary" as={NavLink} to='/'>Todos</Button>
             </ButtonGroup>
           </div>
+
+          <NavLink to="/" className="brand">
+            <Brand />
+          </NavLink>
 
           <div className="buttons">
             <Buttons

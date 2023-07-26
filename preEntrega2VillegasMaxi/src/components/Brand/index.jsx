@@ -2,7 +2,7 @@ import "./index.css";
 function Brand () {
     return(
     <>
-        <img src="https://i.postimg.cc/hjCbV4rG/logo-Ipsum.jpg" alt="" />
+        <img src="https://i.postimg.cc/7YLvmt5F/Logo.png" />
     </>
     )
 }
